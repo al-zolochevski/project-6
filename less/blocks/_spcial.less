@@ -1,0 +1,67 @@
+.special-bg-block {
+    height: 615px;
+    display: flex;
+}
+
+.background-icon {
+    width: 32%;
+    background: url("../../img/icons/gear.svg") no-repeat;
+}
+
+//
+//.background-icon:after {
+//    display: block;
+//    width: 200px;
+//    height: 100%;
+//    position: absolute;
+//    content: '';
+//    background: url("../../img/icons/gear.svg") no-repeat;
+//    background: darkred;
+//    background-position:left center;
+//    right: 0;
+//    top: 0;
+//}
+
+.background-photo {
+    width: 68%;
+    background: url("../../img/bg/relax-bg.jpg") no-repeat left top;
+    background-size: cover;
+}
+
+.green {
+    color: #7cc576;
+}
+.relax-title {
+    margin-bottom: 40px;
+}
+
+.special-bg-block-content {
+    width: 700px;
+    color: #cccccc;
+    font-family: 'Roboto Slab', serif;
+}
+
+.list-icons-check {
+    li {
+        position: relative;
+        margin-bottom: 25px;
+
+        &:before {
+            content: '';
+            background: url(../../img/icons/checkmark.svg) no-repeat;
+            color: red;
+            position: absolute;
+            width: 32px;
+            height: 32px;
+            padding-right: 100px;
+            left: -40px;
+            top: -5px;
+        }
+
+    }
+}
+
+.list-icons-check li:last-child {
+    margin-bottom: 60px;
+}
+
